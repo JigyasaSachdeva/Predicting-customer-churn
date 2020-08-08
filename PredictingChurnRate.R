@@ -1,3 +1,10 @@
+#Jigyasa Sachdeva
+#Predicting Customer Churn at QWE Inc.
+#Assignment 4
+#Data Mining- IDS 572
+
+
+#Reading data 
 library(readxl)
 Data <- read_excel("Desktop/Second Sem/Data Mining/Assignment 4/UV6696-XLS-ENG.xlsx", sheet = "Case Data")
 View(Data) 
@@ -7,6 +14,8 @@ df_status(Data)
 #No null values
 #Converting data type of Churn to factor
 Data$`Churn (1 = Yes, 0 = No)` <- as.factor(Data$`Churn (1 = Yes, 0 = No)`)
+
+
 
 #Univariate analysis
 
